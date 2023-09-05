@@ -4,6 +4,8 @@ arcpy.env.workspace = r"D:\Second Year\Sem 3\Programming_for_GIS_III\P3_Automati
 
 fc_list = arcpy.ListFeatureClasses()
 
+buffer_distance = 0
+
 for fc in fc_list:
     desc_obj = arcpy.Describe(fc)
     shape_type = desc_obj.shapeType
