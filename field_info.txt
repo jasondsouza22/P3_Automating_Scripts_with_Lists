@@ -1,0 +1,96 @@
+Freeways
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: STREET_NAM, Type: String, Length: 30 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Name: Shape_Length, Type: Double, Length: 8 
+---------------------------------------------
+MajorAttractions
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: NAME, Type: String, Length: 35 
+---------------------------------------------
+Name: ESTAB, Type: Integer, Length: 4 
+---------------------------------------------
+Name: ADDR, Type: String, Length: 32 
+---------------------------------------------
+Name: CITYNM, Type: String, Length: 16 
+---------------------------------------------
+Name: ZIP, Type: String, Length: 5 
+---------------------------------------------
+Name: EMP, Type: Integer, Length: 4 
+---------------------------------------------
+Name: ACRES, Type: Integer, Length: 4 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Zipcodes
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: ZIP, Type: Integer, Length: 4 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Name: Shape_Length, Type: Double, Length: 8 
+---------------------------------------------
+Name: Shape_Area, Type: Double, Length: 8 
+---------------------------------------------
+Freeways_Buffer
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Name: STREET_NAM, Type: String, Length: 30 
+---------------------------------------------
+Name: BUFF_DIST, Type: Double, Length: 8 
+---------------------------------------------
+Name: ORIG_FID, Type: Integer, Length: 4 
+---------------------------------------------
+Name: Shape_Length, Type: Double, Length: 8 
+---------------------------------------------
+Name: Shape_Area, Type: Double, Length: 8 
+---------------------------------------------
+MajorAttractions_Buffer
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Name: NAME, Type: String, Length: 35 
+---------------------------------------------
+Name: ESTAB, Type: Integer, Length: 4 
+---------------------------------------------
+Name: ADDR, Type: String, Length: 32 
+---------------------------------------------
+Name: CITYNM, Type: String, Length: 16 
+---------------------------------------------
+Name: ZIP, Type: String, Length: 5 
+---------------------------------------------
+Name: EMP, Type: Integer, Length: 4 
+---------------------------------------------
+Name: ACRES, Type: Integer, Length: 4 
+---------------------------------------------
+Name: BUFF_DIST, Type: Double, Length: 8 
+---------------------------------------------
+Name: ORIG_FID, Type: Integer, Length: 4 
+---------------------------------------------
+Name: Shape_Length, Type: Double, Length: 8 
+---------------------------------------------
+Name: Shape_Area, Type: Double, Length: 8 
+---------------------------------------------
+Zipcodes_Buffer
+Name: OBJECTID, Type: OID, Length: 4 
+---------------------------------------------
+Name: Shape, Type: Geometry, Length: 0 
+---------------------------------------------
+Name: ZIP, Type: Integer, Length: 4 
+---------------------------------------------
+Name: BUFF_DIST, Type: Double, Length: 8 
+---------------------------------------------
+Name: ORIG_FID, Type: Integer, Length: 4 
+---------------------------------------------
+Name: Shape_Length, Type: Double, Length: 8 
+---------------------------------------------
+Name: Shape_Area, Type: Double, Length: 8 
+---------------------------------------------
