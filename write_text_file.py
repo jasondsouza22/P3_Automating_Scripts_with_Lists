@@ -1,5 +1,7 @@
 import os
 
+import arcpy
+
 folder_path = r"D:\Second Year\Sem 3\Programming_for_GIS_III\P3_Automating_Scripts_with_Lists"
 
 file_name = "writeme.txt"
@@ -20,3 +22,4 @@ file_obj.write(input)
 file_obj.close()
 
 print("Process Completed")
+
