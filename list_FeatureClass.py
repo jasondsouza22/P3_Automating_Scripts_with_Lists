@@ -7,3 +7,15 @@ fc_list = arcpy.ListFeatureClasses()
 
 for fc_name in fc_list:
     print(fc_name)
+
+print("------------------------------------------------")
+
+# List of field object for specific featureclass
+
+field_list = arcpy.ListFields("Freeways")
+
+for field in field_list:
+    print(field.name)
+    print(field.type)
+    print(field.length)
+    print("----------------------------------------------------")
